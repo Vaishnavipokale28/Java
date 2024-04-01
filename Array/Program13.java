@@ -1,0 +1,21 @@
+/*
+input:{18,22,17,24,23,26,19,25,43,44,14,65,29,30}
+output:[18, 22, 1, 24, 2, 26, 3, 4, 5, 44, 14, 6, 7, 30]
+*/
+
+import java.util.Arrays;
+class Program13
+{
+	public static void main(String arg[])
+	{
+		
+		int a[]={18,22,17,24,23,26,19,25,43,44,14,65,29,30};
+		int count=1;
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]%2!=0)
+				a[i]=count++;
+		}
+		System.out.println(Arrays.toString(a));
+	}
+}
