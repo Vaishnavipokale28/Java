@@ -11,7 +11,7 @@ class Program14
 		
 		int a[]={18,22,17,24,23,26,19,25,43,44,14,65,29,30};
 		int count=1;
-		for(int i=a.length-1;i>0;i--)30>0
+		for(int i=a.length-1;i>0;i--)
 		{
 			if(a[i]%2!=0)
 				a[i]=count++;
