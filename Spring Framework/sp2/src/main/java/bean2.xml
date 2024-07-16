@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="s1" class="com.model.Student">
+		<constructor-arg type="int" value="10"></constructor-arg>
+		<constructor-arg type="String" value="ABC"></constructor-arg>
+		<constructor-arg type="String" value="Pune"></constructor-arg>
+		<constructor-arg type="double" value="82.11"></constructor-arg>
+	</bean>
+	
+	
+</beans>
