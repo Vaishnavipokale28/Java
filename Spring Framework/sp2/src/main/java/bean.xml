@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="s1" class="com.model.Student">
+		<property name="details">
+			<map>
+			<entry key="hobbies">
+			<list>
+				<value>Cricket</value>
+				<value>cooking</value>
+				<value>reading</value>
+			</list>
+			</entry>
+			<entry key="fruits">
+			<list>
+				<value>Apple</value>
+				<value>Banana</value>
+				<value>mango</value>
+			</list>
+			</entry>
+			</map>
+		</property>
+	</bean>
+	
+	
+	
+	
+</beans>
