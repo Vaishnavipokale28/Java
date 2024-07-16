@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	<bean id="s1" class="com.model.Student">
+		<property name="address" ref="a1"></property>
+	</bean>
+	
+	<bean id="a1" class="com.demo.Address">
+		<property name="line1" value="Kalyani sai vrundavan"></property>
+		<property name="line2" value="Mayur park"></property>
+		<property name="city" value="Aurangabad"></property>
+		<property name="state" value="MH"></property>
+	</bean>
+	
+	
+</beans>
