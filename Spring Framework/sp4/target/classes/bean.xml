@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="sd" class="com.dao.StudentDao">
+		<property name="jdbcTemplate" ref="jdbcTemplate"></property>
+	</bean>
+	
+	<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+	<property name="dataSource" ref="driverManagerDataSource"></property>
+	</bean>
+	
+	<bean id="driverManagerDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+	<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
+	<property name="url" value="jdbc:mysql://localhost:3306/jap66"></property>
+	<property name="username" value="root"></property>
+	<property name="password" value="root"></property>
+	</bean>
+</beans>
