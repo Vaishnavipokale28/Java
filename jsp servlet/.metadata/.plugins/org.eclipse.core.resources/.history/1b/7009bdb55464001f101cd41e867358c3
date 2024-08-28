@@ -1,0 +1,9 @@
+<html>
+<body>
+<h2>this is index.jsp</h2>
+<center>
+value1:<input type="text" name="t1">
+value2:<input type="text" name="t2">
+</center>
+</body>
+</html>
