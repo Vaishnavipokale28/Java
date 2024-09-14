@@ -1,0 +1,10 @@
+
+Aug 28, 2024 15:31:38.95 NEW SESSION
+Aug 28, 2024 15:31:38.95 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 28, 2024 15:32:07.18 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 28, 2024 15:35:21.31 Created TensorFlow Lite XNNPACK delegate for CPU.
+Aug 28, 2024 15:35:54.37 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#58 is a dynamic-sized tensor).
+Aug 28, 2024 16:17:14.00 [18972:21268:0828/161714.005:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Aug 28, 2024 16:17:22.55 [18972:21268:0828/161722.557:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+Aug 28, 2024 16:43:03.46 [18972:11276:0828/164303.463:ERROR:device_event_log_impl.cc(196)] [16:43:03.461] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: Element not found. (0x490)
+Aug 28, 2024 16:58:25.45 [18972:11276:0828/165825.450:ERROR:interface_endpoint_client.cc(722)] Message 0 rejected by interface blink.mojom.WidgetHost
